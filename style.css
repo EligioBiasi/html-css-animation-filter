@@ -44,6 +44,8 @@
 }
 .ex-11-icon {
     font-size: 60px;
+    animation: buffering-reverse 2s infinite linear reverse;
+    animation: buffering-reverse2 2s infinite linear;
 }
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -126,3 +128,15 @@
         transform: rotate(1turn);
     }
 }
+
+@keyframes buffering-reverse {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+@keyframes buffering-reverse2 {
+    70% {
+        transform: rotate(1turn);
+    }
+}
+
