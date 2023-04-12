@@ -113,3 +113,10 @@
     filter: blur(15px) invert(100%);
     border-radius: 50%;
 }
+
+.ex-9-img:hover{
+    filter: blur(15px) invert(100%);
+    border-radius: 50%;
+    width: 200px;
+}
+
